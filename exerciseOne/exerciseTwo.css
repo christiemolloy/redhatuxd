@@ -1,0 +1,122 @@
+/*Stylesheet for Exercise Two*/
+
+/*Embedded Overpass font family*/
+/*light*/
+@font-face {
+  font-family: 'overpassLight';
+  src: url('overpass/overpass-light.otf');
+}
+/*regular*/
+@font-face {
+  font-family: 'overpassRegular';
+  src: url('overpass/overpass-regular.otf');
+}
+/*bold*/
+@font-face {
+  font-family: 'overpassBold';
+   src: url('overpass/overpass-bold.otf');
+}
+
+/*define height of the html page for gradient*/
+html {
+  height:100%;
+}
+
+/*body has a background gradient*/
+body {
+  background: radial-gradient(#ededed, #bbb);
+  height:100%;
+}
+
+/*Center an object*/
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-left: 0.5px solid;
+}
+
+/*The main container has a box shadow*/
+.main {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*Navbar/Header uses flexbox and vertical gradient*/
+.flex-Header {
+  background: linear-gradient(to bottom, #c00, #470000);
+  display: flex;
+  justify-content: space-between;
+}
+
+/*The divs inside Items are justified towards the right*/
+.items {
+  display:flex;
+  justify-content: flex-end;
+}
+
+/*Style for elements inside the NavBar*/
+.name, .items > div > a {
+  font-family: 'overpassRegular';
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-left: 0.5px solid;
+}
+
+/*When hovering on the divs inside items, a radial gradient is added*/
+.items > div:hover {
+  background: radial-gradient(#c00, #470000);
+}
+
+/*The content container has a white background and padding*/
+.content {
+  background-color: white;
+  margin:0;
+  padding: 1em;
+}
+
+/*h1 styles, removed set padding and margin*/
+h1 {
+  font-size: 1.25em;
+  margin:0;
+  padding:0;
+  font-family: 'overpassBold';
+}
+
+/*Styles for paragraph*/
+p {
+  font-size: 0.75em;
+  font-family: 'overpassRegular';
+}
+
+/*A table is used to format the secondary text*/
+table {
+  margin-bottom: 5%;
+}
+
+/*The table data and header have a top padding and light overpass font*/
+td, th {
+  padding-top:10%;
+  font-family: 'overpassLight';
+  font-size: 0.75em;
+}
+
+/*Style for table heading*/
+th{
+  padding-right:7.5%;
+  text-align:left;
+  width: 40%;
+}
+
+/*Style for hover over status, background becomes green*/
+#statusID:hover {
+   background-color: green;
+   text-align: center;
+   border-radius: 2px;
+   width: 40px;
+   padding: 0 5px 0 5px;
+   color: white;
+}

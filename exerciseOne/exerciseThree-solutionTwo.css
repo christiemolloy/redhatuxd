@@ -1,0 +1,37 @@
+/*Used FlexBox to align items within divs*/
+/*CSS originally taken from codepen.io*/
+body {
+  padding: 30px;
+}
+
+header {
+  background: lightblue;
+  padding: 1rem;
+}
+
+/*Parent flexbox container*/
+.flexbox-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+/*First child of parent flexbox container*/
+.flexbox-item1 {
+  flex-direction: column;
+  background-color: lightgreen;
+  padding: 20px;
+}
+
+/*Children of flexbox parent's first child*/
+.flexbox-item1 > div {
+  background: white;
+  padding: 10px;
+}
+
+/*Second child of parent flexbox container*/
+.flexbox-item2 {
+  background-color: pink;
+  padding: 30px;
+
+}
