@@ -1,10 +1,23 @@
 Section 1 - Design and Development
 
-Q1
+Q1. Important Considerations for developing enterprise-level web applications?
 
-Q2
+I believe that user-centered design is an important consideration when developing a meaningful and engaging experience for the user. The information architecture should be well laid out and complement the UI screens and the navigation should be intuitive. A second consideration is the responsiveness and accessibility of the web application. It should adapt to multiple device types, and should also implement accessibility techniques to become more inclusive. A third consideration is the collaborative design and implementation between the front and the back end as they should work fluidly in order for them to both run soundly. A fourth consideration is the web application’s scalability; as the user-base grows, the performance of the application should not drop and this means pre-empting these growths to avoid a bad user experience. Choosing the right architecture from the beginning will help with this. A fifth consideration is security and authentication. Multi-level authentication is important to help authenticate the identity of a user, and security measures must be taken to proactively prevent security breaches.
 
-Q3
+Q3. What do you value in code base?
+
+First and foremost I value code that is easily understandable. This means having good structure and hierarchy, comments and indentation, and a coding schema to define patterns, naming conventions and other styles. This will allow me to get a grasp of the code immediately and improve work efficiency. Secondly, I value code that is easy to change and adapt, which makes team project collaboration stronger. This means using techniques like loose coupling and modularity, and techniques to support developers identify and diagnose errors. Thirdly, I value code that is efficient and robust. The code should load quickly and be backed up by earlier versions to ensure safety.
+
+Q1. Tell us about a Red Hat product or open source project you like/
+
+I believe that Patternfly is an incredible open source project for its ability to bridge the gap between developers and designers. Projects like Patternfly are important for companies as big as Red Hat to create cohesion between products. It also means that development can run more smoothly as developers can consult the Patternfly library before they consult designers. For me, Bootstrap does a lot, but is still limited in its capabilities so it excites me that Patternfly is pushing these boundaries — its a project I would love to work on. Another reason why I believe Patternfly is so successful is because the design and layout examples helps designers visualize the code they are working with.
+
+
+Q3. In your career to date, what are you most proud of and why?
+
+During my internship at Twitter last Summer, as part of my personal project I started a campaign called #TerningTheTable to increase the percent of females interning in tech. This included leading a group of 20 female interns, working with interns from Facebook, and receiving support and recognition from leadership. The campaign was such a success that senior leadership asked me to host an event called #WelcomeToTheTable for 150+ females in the Bay Area to discuss why females should be in tech. I was very proud of this achievement, because I worked hard to turn a small idea into a larger experience that empowered women and the results were seen.
+
+
 
 Section 2 - General
 
