@@ -4,17 +4,17 @@
 /*light*/
 @font-face {
   font-family: 'overpassLight';
-  src: url('overpass/overpass-light.otf');
+  src: url('../overpass/overpass-light.otf');
 }
 /*regular*/
 @font-face {
   font-family: 'overpassRegular';
-  src: url('overpass/overpass-regular.otf');
+  src: url('../overpass/overpass-regular.otf');
 }
 /*bold*/
 @font-face {
   font-family: 'overpassBold';
-   src: url('overpass/overpass-bold.otf');
+   src: url('../overpass/overpass-bold.otf');
 }
 
 /*define height of the html page for gradient*/
